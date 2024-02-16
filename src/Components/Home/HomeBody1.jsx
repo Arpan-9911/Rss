@@ -3,8 +3,8 @@ import { Box, Image, Heading} from '@chakra-ui/react';
 import 'aos/dist/aos.css'
 import Aos from 'aos'
 
-import img1 from '../../assets/img1.jpg'
-import img2 from '../../assets/img2.jpg'
+import img1 from '../../assets/Img1.jpg'
+import img2 from '../../assets/Img2.jpg'
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
