@@ -9,7 +9,7 @@ const MediumScreen = () => {
     <div>
       <div className="flex">
         <div className="w-1/4 lgmax:w-1/3"><HomeBody1/></div>
-        <div className="w-3/4 mt-10 pl-5 pr-2 lgmax:w-2/3 lgmax:mt-7 lgmax:pr-0"><HomeBody2/></div>
+        <div className="w-3/4 mt-10 pl-5 pr-2 lgmax:w-2/3 mdsmax:mt-7 lgmax:pr-0"><HomeBody2/></div>
       </div>
       <div className="flex">
         <div className="w-1/2 text-center"><QuickLinks/></div>

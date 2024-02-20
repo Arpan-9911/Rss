@@ -26,7 +26,7 @@ const MobileNav = () => {
   }, []); 
   return (
     <>
-      <div className="sticky top-0 z-10">
+      <div className="sticky w-screen top-0 z-10">
         <div className="`w-full bg-blue-600 p-2 h-fit text-right flex justify-between items-center`">
           <div>
             <TypeAnimation
@@ -54,7 +54,7 @@ const MobileNav = () => {
           onClose={onClose}
         >
           <DrawerOverlay/>
-          <DrawerContent className="bg-blue-600 px-2 mt-12">
+          <DrawerContent className="bg-blue-400 px-2 mt-12">
             <DrawerBody>
               <VStack className="text-xl text-white mt-5">
                 <Link to={"/"} data-aos="fade-left" data-aos-delay="100" className="hover:text-red-300 w-full text-left" onClick={onClose}>Login</Link>

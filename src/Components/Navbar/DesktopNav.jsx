@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import {AiOutlineMenu} from 'react-icons/ai'
+import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { TypeAnimation } from 'react-type-animation'
 import {
   Drawer,
@@ -28,8 +28,8 @@ const DesktopNav = () => {
   }, []); 
   return (
     <>
-      <div className="sticky top-0 z-10">
-        <div className="h-fit w-full bg-blue-600 flex justify-around pt-2">
+      <div className="sticky top-0 z-10 w-screen">
+        <div className="h-fit w-full bg-blue-600 flex justify-around">
           <div>
             <TypeAnimation
                 sequence={[
@@ -49,7 +49,7 @@ const DesktopNav = () => {
                   />
           </div>
         </div>
-        <div className="h-12 w-full bg-blue-600 px-5 flex justify-between pb-2">
+        <div className="h-12 w-full bg-blue-600 px-5 flex justify-between">
           <div className="flex items-center" data-aos= "fade-left">
             <h1 className="mr-2 text-white text-xl font-bold">Deals In:-</h1>
             <TypeAnimation
@@ -78,20 +78,20 @@ const DesktopNav = () => {
                   />
           </div>
           <div className="text-white text-xl font-bold flex items-center" data-aos = "fade-right">
-            <Link to={"/"} className="py-1 mx-4 hover:text-red-300 hover:border-b-2">Home</Link>
-            <Link to={"/"} className="py-1 mx-4 hover:text-red-300 hover:border-b-2">About</Link>
-            <Link to={"/"} className="py-1 mx-4 hover:text-red-300 hover:border-b-2">Contact</Link>
-            <Link to={"/"} className="py-1 mx-4 hover:text-red-300 hidden xlmax:inline-block hover:border-b-2">Login</Link>
-            <Button onClick={onOpen} className="mx-2"><AiOutlineMenu size={"30"}/></Button>
+            <Link to={"/"} className="mx-4 hover:text-red-300 hover:border-b-2">Home</Link>
+            <Link to={"/"} className="mx-4 hover:text-red-300 hover:border-b-2">About</Link>
+            <Link to={"/"} className="mx-4 hover:text-red-300 hover:border-b-2">Contact</Link>
+            <Link to={"/"} className="mx-4 hover:text-red-300 hidden xlmax:inline-block hover:border-b-2">Login</Link>
+            {
+              isOpen ? <button onClick={onClose}><AiOutlineClose size={"30"}/></button> : <Button onClick={onOpen} className="mx-2"><AiOutlineMenu size={"30"}/></Button>
+            }
             <Drawer
               isOpen={isOpen}
               placement='right'
               onClose={onClose}
             >
               <DrawerOverlay/>
-              <DrawerContent className="bg-blue-600 p-10">
-                <DrawerCloseButton className="fixed top-5 right-5 text-blue-600 p-1 text-2xl bg-white"/>
-                <DrawerHeader data-aos="fade-left" className="text-center text-4xl font-bold text-white">RSS ASSOCIATES</DrawerHeader>
+              <DrawerContent className="bg-blue-400 p-10 mt-24">
                 <DrawerBody>
                   <HStack className="text-2xl text-white mt-5 border-b-2">
                     <Link to={"/"} data-aos="fade-left" className="py-1 mx-4 hover:text-red-300" onClick={onClose}>Home</Link>

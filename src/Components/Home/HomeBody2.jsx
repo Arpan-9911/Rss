@@ -33,27 +33,27 @@ const MyCarousel = () => (
     showArrows={false}
   >
     <Box className="h-fit mdmax:h-52">
-      <Image src={img3} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Image src={img3} className="w-full h-80 xlmax:h-96 mdmax:max-h-36"/>
       <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base smmax:py-2 smmax:px-10">Employee Provident Fund Organisation</Heading>
     </Box>
     <Box className="h-fit mdmax:h-52">
-      <Image src={img4} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Image src={img4} className="w-full h-80 xlmax:h-96 mdmax:max-h-36"/>
       <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base smmax:py-2 smmax:px-10">Employee Provident Fund Organisation</Heading>
     </Box>
     <Box className="h-fit mdmax:h-52">
-      <Image src={img5} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Image src={img5} className="w-full h-80 xlmax:h-96 mdmax:max-h-36"/>
       <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base smmax:py-2 smmax:px-10">Employee State Insurance Corporation</Heading>
     </Box>
     <Box className="h-fit mdmax:h-52">
-      <Image src={img6} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Image src={img6} className="w-full h-80 xlmax:h-96 mdmax:max-h-36"/>
       <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base smmax:py-2 smmax:px-10">Employee State Insurance Corporation</Heading>
     </Box>
     <Box className="h-fit mdmax:h-52">
-      <Image src={img7} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Image src={img7} className="w-full h-80 xlmax:h-96 mdmax:max-h-36"/>
       <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base">Factory Act</Heading>
     </Box>
     <Box className="h-fit mdmax:h-52">
-      <Image src={img8} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Image src={img8} className="w-full h-80 xlmax:h-96 mdmax:max-h-36"/>
       <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base"><div>Factory Act</div></Heading>
     </Box>
   </Carousel>

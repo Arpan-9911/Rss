@@ -20,10 +20,10 @@ const HomeBody1 = () => {
         <Box className="w-full mdmax:w-36 mdmax:p-2">
           <MyCarousel />
         </Box>
-        <div className="w-full mt-10 mdsmax:m-0 mdmax:w-fit mdmax:py-2">
+        <div className="w-full mt-10 mdmax:w-fit mdmax:m-0 mdmax:p-1">
           <h1 className="text-2xl mdmax:text-xl font-bold">Ravi Srivastava</h1>
           <h1 className="text-lg mdmax:text-base">Industrial Consultant</h1>
-          <h1 className="text-lg mdmax:text-base mb-10 mdsmax:m-0">Labour Law Advisor</h1>
+          <h1 className="text-lg mdmax:text-base mb-10 mdmax:m-0">Labour Law Advisor</h1>
           <h1 className="text-lg mdmax:text-base"><a href="tel:+91 9990295809">9990295809</a></h1>
           <h1 className="text-lg mdmax:text-base">rss1386@gmail.com</h1>
           <h1 className="text-lg mdmax:text-base">rssassociates01@gmail.com</h1>
