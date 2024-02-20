@@ -16,14 +16,14 @@ const HomeBody1 = () => {
   }, []);
   return (
     <>
-      <div data-aos = "fade-right" className="max-w-fit mt-5 ml-5 py-2 pr-5 mdmax:m-0 mdmax:p-0 mdmax:flex">
-        <Box className="w-60 mdmax:w-36 mdmax:p-2">
+      <div data-aos = "fade-right" className="mt-5 w-full ml-4 py-2 pr-5 mdmax:m-1 mdmax:p-0 mdmax:flex">
+        <Box className="w-full mdmax:w-36 mdmax:p-2">
           <MyCarousel />
         </Box>
-        <div className="w-60 mt-10 mdmax:w-fit mdmax:m-0 mdmax:py-2">
+        <div className="w-full mt-10 mdsmax:m-0 mdmax:w-fit mdmax:py-2">
           <h1 className="text-2xl mdmax:text-xl font-bold">Ravi Srivastava</h1>
           <h1 className="text-lg mdmax:text-base">Industrial Consultant</h1>
-          <h1 className="text-lg mdmax:text-base mb-10 mdmax:m-0">Labour Law Advisor</h1>
+          <h1 className="text-lg mdmax:text-base mb-10 mdsmax:m-0">Labour Law Advisor</h1>
           <h1 className="text-lg mdmax:text-base"><a href="tel:+91 9990295809">9990295809</a></h1>
           <h1 className="text-lg mdmax:text-base">rss1386@gmail.com</h1>
           <h1 className="text-lg mdmax:text-base">rssassociates01@gmail.com</h1>

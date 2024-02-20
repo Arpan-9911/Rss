@@ -17,7 +17,7 @@ const HomeBody2 = () => {
     });
   }, []);
   return (
-    <div data-aos = "fade-up" className="mt-5 pt-2 px-7 w-1/2 border-x-4 mdmax:w-full mdmax:border-none">
+    <div data-aos = "fade-up" className="px-4 w-full mdmax:w-full">
       <MyCarousel/>
     </div>
   )
@@ -33,28 +33,28 @@ const MyCarousel = () => (
     showArrows={false}
   >
     <Box className="h-fit mdmax:h-52">
-      <Image src={img3} className="w-full h-96 mdmax:h-36"/>
-      <Heading className="text-4xl w-full h-full bg-gray-600 text-white py-4 text-center font-bold mdmax:text-base">Employee Provident Fund Organisation</Heading>
+      <Image src={img3} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base smmax:py-2 smmax:px-10">Employee Provident Fund Organisation</Heading>
     </Box>
     <Box className="h-fit mdmax:h-52">
-      <Image src={img4} className="w-full h-96 mdmax:h-36"/>
-      <Heading className="text-4xl w-full h-full bg-gray-600 text-white py-4 text-center font-bold mdmax:text-base">Employee Provident Fund Organisation</Heading>
+      <Image src={img4} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base smmax:py-2 smmax:px-10">Employee Provident Fund Organisation</Heading>
     </Box>
     <Box className="h-fit mdmax:h-52">
-      <Image src={img5} className="w-full h-96 mdmax:h-36"/>
-      <Heading className="text-4xl w-full h-full bg-gray-600 text-white py-4 text-center font-bold mdmax:text-base">Employee State Insurance Corporation</Heading>
+      <Image src={img5} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base smmax:py-2 smmax:px-10">Employee State Insurance Corporation</Heading>
     </Box>
     <Box className="h-fit mdmax:h-52">
-      <Image src={img6} className="w-full h-96 mdmax:h-36"/>
-      <Heading className="text-4xl w-full h-full bg-gray-600 text-white py-4 text-center font-bold mdmax:text-base">Employee State Insurance Corporation</Heading>
+      <Image src={img6} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base smmax:py-2 smmax:px-10">Employee State Insurance Corporation</Heading>
     </Box>
     <Box className="h-fit mdmax:h-52">
-      <Image src={img7} className="w-full h-96 mdmax:h-36"/>
-      <Heading className="text-4xl w-full h-full bg-gray-600 text-white py-4 text-center font-bold mdmax:text-base">Factory Act</Heading>
+      <Image src={img7} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base">Factory Act</Heading>
     </Box>
     <Box className="h-fit mdmax:h-52">
-      <Image src={img8} className="w-full h-96 mdmax:h-36"/>
-      <Heading className="text-4xl w-full h-full bg-gray-600 text-white py-4 text-center font-bold mdmax:text-base"><div>Factory Act</div></Heading>
+      <Image src={img8} className="w-full h-96 mdsmax:h-80 mdmax:max-h-36"/>
+      <Heading className="text-2xl w-full h-full bg-gray-600 text-white p-4 text-center font-bold mdmax:text-base"><div>Factory Act</div></Heading>
     </Box>
   </Carousel>
 )

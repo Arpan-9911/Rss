@@ -7,7 +7,7 @@ const Navbar = () => {
 
 
      const [width, setWidth] = useState(window.innerWidth);
-     const breakpoint = 620;
+     const breakpoint = 900;
       useEffect(() => {
        const handleWindowResize = () => setWidth(window.innerWidth)
        window.addEventListener("resize", handleWindowResize);
