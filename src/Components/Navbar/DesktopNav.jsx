@@ -80,7 +80,7 @@ const DesktopNav = () => {
           <div className="text-white text-xl font-bold flex items-center" data-aos = "fade-right">
             <Link to={"/"} className="mx-4 hover:text-red-300 hover:border-b-2">Home</Link>
             <Link to={"/"} className="mx-4 hover:text-red-300 hover:border-b-2">About</Link>
-            <Link to={"/"} className="mx-4 hover:text-red-300 hover:border-b-2">Contact</Link>
+            <Link to={"/contact"} className="mx-4 hover:text-red-300 hover:border-b-2">Contact</Link>
             <Link to={"/login"} className="mx-4 hover:text-red-300 hidden xlmax:inline-block hover:border-b-2">Login</Link>
             {
               isOpen ? <button onClick={onClose}><AiOutlineClose size={"30"}/></button> : <Button onClick={onOpen} className="mx-2"><AiOutlineMenu size={"30"}/></Button>
@@ -93,12 +93,6 @@ const DesktopNav = () => {
               <DrawerOverlay/>
               <DrawerContent className="bg-blue-400 p-10 mt-24">
                 <DrawerBody>
-                  <HStack className="text-2xl text-white mt-5 border-b-2">
-                    <Link to={"/"} data-aos="fade-left" className="py-1 mx-4 hover:text-red-300" onClick={onClose}>Home</Link>
-                    <Link to={"/"} data-aos="fade-left" className="py-1 mx-4 hover:text-red-300" onClick={onClose}>About</Link>
-                    <Link to={"/"} data-aos="fade-left" className="py-1 mx-4 hover:text-red-300" onClick={onClose}>Contact</Link>
-                    <Link to={"/"} data-aos="fade-left" className="py-1 mx-4 hover:text-red-300 hidden xlmax:inline-block" onClick={onClose}>Login</Link>
-                  </HStack>
                 </DrawerBody>
               </DrawerContent>
             </Drawer>

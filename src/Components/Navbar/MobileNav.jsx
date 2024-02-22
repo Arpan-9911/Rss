@@ -60,7 +60,7 @@ const MobileNav = () => {
                 <Link to={"/login"} data-aos="fade-left" data-aos-delay="100" className="hover:text-red-300 w-full text-left" onClick={onClose}>Login</Link>
                 <Link to={"/"} data-aos="fade-left" data-aos-delay="200" className="hover:text-red-300 w-full text-left" onClick={onClose}>Home</Link>
                 <Link to={"/"} data-aos="fade-left" data-aos-delay="300" className="hover:text-red-300 w-full text-left" onClick={onClose}>About</Link>
-                <Link to={"/"} data-aos="fade-left" data-aos-delay="400" className="hover:text-red-300 w-full text-left" onClick={onClose}>Contact</Link>
+                <Link to={"/contact"} data-aos="fade-left" data-aos-delay="400" className="hover:text-red-300 w-full text-left" onClick={onClose}>Contact</Link>
               </VStack>
             </DrawerBody>
           </DrawerContent>
