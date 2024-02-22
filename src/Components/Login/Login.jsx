@@ -18,7 +18,7 @@ const Login = () => {
   return (
     <div className="w-screen h-screen flex items-center justify-center">
       <div>
-        <form className="flex bg-gray-400 shadow-xl shadow-gray-600 -mt-20 p-10 flex-col items-center w-fit justify-center rounded-2xl" onLoad={"reset"}>
+        <form className="flex bg-gray-400 shadow-xl shadow-gray-600 -mt-32 p-10 flex-col items-center w-fit justify-center rounded-2xl" onLoad={"reset"}>
           <img src={profile} alt="Login" className="w-16 h-16 mb-4 text-white" />
           <input type="text" name="username" id="username" required placeholder="Username" className="w-52 text-black outline-none rounded-lg px-2 py-1 mb-2" />
           <input type="password" name="password" id="password" required placeholder="Password" className="w-52 text-black outline-none h-8 rounded-lg px-2 py-1 mb-5" />
