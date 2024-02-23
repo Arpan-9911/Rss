@@ -21,7 +21,7 @@ const Contact = () => {
             
           </div>
           <div className="w-1/3 min-w-72 mdmax:w-full p-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.0977175252383!2d77.40423947495881!3d28.68672338161869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf05f53c2011b%3A0x1299dd14c28592!2sRSS%20ASSOCIATES!5e0!3m2!1sen!2sin!4v1705604196869!5m2!1sen!2sin" className="w-full h-60 border-4 border-black" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.0977175252383!2d77.40423947495881!3d28.68672338161869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf05f53c2011b%3A0x1299dd14c28592!2sRSS%20ASSOCIATES!5e0!3m2!1sen!2sin!4v1705604196869!5m2!1sen!2sin" className="w-full h-60 border-4 border-black" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>

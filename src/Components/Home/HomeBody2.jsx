@@ -31,6 +31,7 @@ const MyCarousel = () => (
     showStatus={false}
     showIndicators={false}
     showArrows={false}
+    showThumbs={false}
   >
     <Box className="h-fit mdmax:h-52">
       <Image src={img3} className="w-full h-80 xlmax:h-96 mdmax:max-h-36"/>

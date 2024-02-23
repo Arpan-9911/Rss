@@ -40,6 +40,7 @@ const MyCarousel = () => (
     showStatus={false}
     showIndicators={false}
     showArrows={false}
+    showThumbs={false}
   >
     <Box className="h-52 mdmax:h-36">
       <Image src={img1} className="w-full h-full"/>
