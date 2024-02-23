@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Mail = () => {
   const [name, setName] = useState('')
@@ -53,7 +53,10 @@ const Mail = () => {
         
         <textarea name="message" placeholder='Message' autoComplete='off' className="my-2 w-80 mdmax:w-48 h-10 rounded-lg p-2 resize-none placeholder:text-gray-600" value={message} onChange={(e) => setMessage(e.target.value)}/>
         
-        <input type="submit" value="Send" className="w-32 h-10 my-2 rounded-lg font-bold m-auto bg-blue-500 active:bg-blue-900 active:scale-110" />
+        <div className="flex items-center justify-evenly">
+          <Link to={"/contact"} className="w-32 h-10 my-2 py-2 rounded-lg text-center font-bold m-auto bg-red-500 active:bg-red-900 active:scale-110 mdmax:w-fit mdmax:px-4">Back</Link>
+          <input type="submit" value="Send" className="w-32 h-10 my-2 rounded-lg font-bold m-auto cursor-pointer bg-blue-500 active:bg-blue-900 active:scale-110 mdmax:w-fit mdmax:px-4" />
+        </div>
       </form>
     </div>
   )

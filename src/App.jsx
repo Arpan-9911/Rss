@@ -6,6 +6,7 @@ import Footer from './Pages/Footer'
 import LoginPage from './Pages/LoginPage'
 import ContactPage from './Pages/ContactPage'
 import Mail from './Components/Contact/Mail'
+import About from './Pages/About'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/login' element={<LoginPage/>} />
         <Route path='/contact' element={<ContactPage/>} />
         <Route path='/mail' element={<Mail/>} />
+        <Route path='/about' element={<About/>} />
       </Routes>
       <Footer/>
     </Router>

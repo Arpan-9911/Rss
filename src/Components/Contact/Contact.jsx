@@ -14,9 +14,9 @@ const Contact = () => {
             <h1 className="my-1">rssassociates01@gmail.com</h1>
             <h1 className="my-1">Mon-Sat : 9:00 a.m. - 6:00 pm</h1>
             <div className="flex items-center justify-evenly flex-wrap">
-              <h1 className="m-1 px-4 py-2 bg-red-400 text-center w-fit rounded-lg"><a href="tel:+91 9990295809">Call Us</a></h1>
-              <h1 className=" m-1 px-4 py-2 bg-green-400 text-center w-fit rounded-lg"><a href="https://wa.me/919990295809" target="_blank">Whatsapp Us</a></h1>
-              <Link to={"/mail"}  className=" m-1 px-4 py-2 bg-violet-400 text-center w-fit rounded-lg">Mail Us</Link>
+              <h1 className="m-1 px-4 py-2 bg-red-400 text-center w-fit rounded-lg active:bg-red-700 active:scale-110"><a href="tel:+91 9990295809">Call Us</a></h1>
+              <h1 className=" m-1 px-4 py-2 bg-green-400 text-center w-fit rounded-lg active:bg-green-700 active:scale-110"><a href="https://wa.me/919990295809" target="_blank">Whatsapp Us</a></h1>
+              <Link to={"/mail"}  className=" m-1 px-4 py-2 bg-violet-400 text-center w-fit rounded-lg active:bg-violet-700 active:scale-110">Mail Us</Link>
             </div>
             
           </div>
