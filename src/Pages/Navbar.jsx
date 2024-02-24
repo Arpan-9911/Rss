@@ -2,6 +2,7 @@ import React from 'react'
 import DesktopNav from '../Components/Navbar/DesktopNav'
 import MobileNav from '../Components/Navbar/MobileNav'
 import { useEffect , useState} from 'react'
+import DateTime from '../Components/DateTime/DateTime'
 
 const Navbar = () => {
 
@@ -18,6 +19,7 @@ const Navbar = () => {
      <>
 
      {width < breakpoint ? <MobileNav /> : <DesktopNav />}
+     <DateTime/>
           
      </>
   )
