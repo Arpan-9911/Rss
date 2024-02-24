@@ -23,8 +23,8 @@ const Login = () => {
           <input type="text" name="username" id="username" required autoComplete='off' placeholder="Username" className="w-52 text-black outline-none rounded-lg shadow-md shadow-black px-2 py-1 mb-2" />
           <input type="password" name="password" id="password" required autoComplete='off' placeholder="Password" className="w-52 text-black outline-none h-8 rounded-lg shadow-md shadow-black px-2 py-1 mb-5" />
           <div data-aos className="w-52 text-black h-8 rounded-lg flex justify-evenly">
-            <input type="submit" value="Login" id='login' onClick={LoggedIn} className="w-16 bg-blue-500 text-white rounded-lg shadow-md shadow-black transition-all duration-300 active:scale-110 active:bg-blue-900"/>
-            <input type="reset" value="Reset" className="w-16 bg-red-500 text-white rounded-lg shadow-md shadow-black transition-all duration-300 active:scale-110 active:bg-red-900"/>
+            <input type="submit" value="Login" id='login' onClick={LoggedIn} className="w-16 cursor-pointer bg-blue-500 text-white rounded-lg shadow-md shadow-black transition-all duration-300 active:scale-110 active:bg-blue-900"/>
+            <input type="reset" value="Reset" className="w-16 cursor-pointer bg-red-500 text-white rounded-lg shadow-md shadow-black transition-all duration-300 active:scale-110 active:bg-red-900"/>
           </div>
         </form>
       </div>
