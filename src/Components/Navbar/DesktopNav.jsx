@@ -91,7 +91,7 @@ const DesktopNav = () => {
               onClose={onClose}
             >
               <DrawerOverlay/>
-              <DrawerContent className="bg-blue-400 p-10 mt-24">
+              <DrawerContent className="bg-blue-400 p-10 mt-20">
                 <DrawerBody>
                 </DrawerBody>
               </DrawerContent>

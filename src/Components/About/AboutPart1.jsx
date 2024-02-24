@@ -9,7 +9,7 @@ const AboutPart1 = () => {
       <h1 className="w-screen h-fit text-6xl mdsmax:text-4xl my-5 text-center font-bold text-green-600">About Us</h1>
       <div className="flex w-screen h-fit items-center justify-center flex-wrap mdsmax:block">
         <div className="w-1/2 h-60 px-20 my-10 mdsmax:w-full mdmax:px-5">
-          <img src={img9} className="w-full h-full bg-contain"/>
+          <img src={img9} className="w-full h-full bg-contain border-2 border-black" />
         </div>
         <div className="w-1/2 px-20 text-center mdsmax:w-full mdmax:px-5">
           <h1 className="text-4xl mb-5 font-bold font-serif text-red-500 mdsmax:text-3xl">Our Expertise</h1>
@@ -18,19 +18,19 @@ const AboutPart1 = () => {
       </div>
       <div className="flex items-center justify-center flex-wrap mdsmax:block">
         <div className="w-1/2 h-60 px-20 my-10 hidden mdsmax:block mdsmax:w-full mdmax:px-5">
-          <img src={img10} className="w-full h-full bg-contain"/>
+          <img src={img10} className="w-full h-full bg-contain border-2 border-black"/>
         </div>
         <div className="w-1/2 px-20 text-center mdsmax:w-full mdmax:px-5">
           <h1 className="text-4xl mb-5 font-bold font-serif text-red-500 mdsmax:text-3xl">Our Approach</h1>
           <p>We believe in taking a personalized approach to each client's needs. We work closely with our clients to understand their goals and develop customized solutions to help them.</p>
         </div>
         <div className="w-1/2 h-60 px-20 my-10 mdsmax:hidden">
-          <img src={img10} className="w-full h-full bg-contain"/>
+          <img src={img10} className="w-full h-full bg-contain border-2 border-black"/>
         </div>
       </div>
       <div className="flex items-center justify-center flex-wrap mdsmax:block">
         <div className="w-1/2 h-60 px-20 my-10 mdsmax:w-full mdmax:px-5">
-          <img src={img11} className="w-full h-full bg-contain"/>
+          <img src={img11} className="w-full h-full bg-contain border-2 border-black"/>
         </div>
         <div className="w-1/2 px-20 text-center mdsmax:w-full mdmax:px-5">
           <h1 className="text-4xl mb-5 font-bold font-serif text-red-500 mdsmax:text-3xl">Our Success Stories</h1>

@@ -19,7 +19,7 @@ const DateTime = () => {
   }
   setInterval(updateDateTime, 1000)
   return (
-    <div className="w-screen h-fit text-xl text-blue-600 font-bold text-right px-8 mdmax:text-center xlmax:px-2">
+    <div className="w-screen h-fit text-xl text-blue-600 font-bold text-right px-8 mdmax:text-center mdsmax:px-2">
       <div><input type="text" name="date" id="dateTime" disabled className="bg-transparent text-right mdmax:text-center w-fit outline-none" /></div>
     </div>
   )

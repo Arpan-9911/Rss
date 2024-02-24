@@ -27,7 +27,7 @@ const MobileNav = () => {
   return (
     <>
       <div className="sticky w-screen top-0 z-10">
-        <div className="`w-full bg-blue-600 p-2 h-fit text-right flex justify-between items-center`">
+        <div className="w-full bg-blue-600 p-2 h-fit text-right flex justify-between items-center">
           <div>
             <TypeAnimation
               sequence={[

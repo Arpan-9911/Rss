@@ -18,7 +18,7 @@ const HomeBody2 = () => {
   }, []);
   return (
     <div data-aos = "fade-up" className="px-4 w-full mdmax:w-full">
-      <MyCarousel/>
+      <div className='border-black border-2'><MyCarousel/></div>
     </div>
   )
 }

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body{
-  background-color: rgb(183, 180, 180);
+  background-color: rgb(235, 239, 124);
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
