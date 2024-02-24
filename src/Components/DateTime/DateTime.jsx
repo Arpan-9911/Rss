@@ -13,7 +13,7 @@ const DateTime = () => {
       second: '2-digit' 
     };
     
-    const dateTimeStr = dateTime.toLocaleString("en-US", options)
+    const dateTimeStr = dateTime.toLocaleString("en-GB", options)
   
     document.getElementById("dateTime").value = dateTimeStr
   }

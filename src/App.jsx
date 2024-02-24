@@ -7,6 +7,7 @@ import LoginPage from './Pages/LoginPage'
 import ContactPage from './Pages/ContactPage'
 import Mail from './Components/Contact/Mail'
 import About from './Pages/About'
+import QrPage from './Pages/QrPage'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/contact' element={<ContactPage/>} />
         <Route path='/mail' element={<Mail/>} />
         <Route path='/about' element={<About/>} />
+        <Route path='/consultationfee' element={<QrPage/>} />
       </Routes>
       <Footer/>
     </Router>
