@@ -19,25 +19,19 @@ const AppLayout = () => (
   </div>
 )
 
-function App() {
-
-  return (
-    <Router basename='/rssassociates'>
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<AppLayout/>}>
-          <Route path='/' element={<Home/>} />
-          <Route path='/login' element={<LoginPage/>} />
-          <Route path='/contact' element={<ContactPage/>} />
-          <Route path='/mail' element={<Mail/>} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/consultationfee' element={<QrPage/>} />
-          <Route path='*' element={<Home/>} />
-        </Route>
-      </Routes>
-      <Footer/>
-    </Router>
-  )
-}
-
+const App = () => (
+  <Router>
+    <Routes>
+      <Route path='/' element={<AppLayout/>}>
+        <Route path='/' element={<Home/>} />
+        <Route path='/login' element={<LoginPage/>} />
+        <Route path='/contact' element={<ContactPage/>} />
+        <Route path='/mail' element={<Mail/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/consultationfee' element={<QrPage/>} />
+        <Route path='*' element={<Home/>} />
+      </Route>
+    </Routes>
+  </Router>
+)
 export default App
