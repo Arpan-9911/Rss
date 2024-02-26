@@ -23,12 +23,12 @@ const App = () => (
   <Router>
     <Routes>
       <Route path='/' element={<AppLayout/>}>
-        <Route path='/' element={<Home/>} />
-        <Route path='/login' element={<LoginPage/>} />
-        <Route path='/contact' element={<ContactPage/>} />
-        <Route path='/mail' element={<Mail/>} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/consultationfee' element={<QrPage/>} />
+        <Route index element={<Home/>} />
+        <Route path='login' element={<LoginPage/>} />
+        <Route path='contact' element={<ContactPage/>} />
+        <Route path='mail' element={<Mail/>} />
+        <Route path='about' element={<About/>} />
+        <Route path='consultationfee' element={<QrPage/>} />
         <Route path='*' element={<Home/>} />
       </Route>
     </Routes>
