@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './Pages/Navbar'
 import Home from './Pages/Home'
 import Footer from './Pages/Footer'
@@ -23,15 +23,15 @@ const App = () => (
   <Router>
     <Routes>
       <Route path='/' element={<AppLayout/>}>
-        <Route index element={<Home/>} />
-        <Route path='login' element={<LoginPage/>} />
-        <Route path='contact' element={<ContactPage/>} />
-        <Route path='mail' element={<Mail/>} />
-        <Route path='about' element={<About/>} />
-        <Route path='consultationfee' element={<QrPage/>} />
-        <Route path='*' element={<Home/>} />
+        <Route path='/' element={<Home/>} />
+        <Route path='/login' element={<LoginPage/>} />
+        <Route path='/contact' element={<ContactPage/>} />
+        <Route path='/mail' element={<Mail/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/consultationfee' element={<QrPage/>} />
       </Route>
     </Routes>
   </Router>
 )
+
 export default App
