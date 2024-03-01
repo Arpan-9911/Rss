@@ -81,7 +81,7 @@ const DesktopNav = () => {
             <Link to={"/"} onClick={onClose} className="mx-4 hover:text-red-300 hover:border-b-2">Home</Link>
             <Link to={"/about"} onClick={onClose} className="mx-4 hover:text-red-300 hover:border-b-2">About</Link>
             <Link to={"/contact"} onClick={onClose} className="mx-4 hover:text-red-300 hover:border-b-2">Contact</Link>
-            <Link to={"/login"} onClick={onClose} className="mx-4 hover:text-red-300 hidden xlmax:inline-block hover:border-b-2">Login</Link>
+            <a href='/' onClick={onClose} className="mx-4 hover:text-red-300 hover:border-b-2">Login</a>
             {
               isOpen ? <button onClick={onClose}><AiOutlineClose size={"30"}/></button> : <Button onClick={onOpen} className="mx-2"><AiOutlineMenu size={"30"}/></Button>
             }

@@ -57,7 +57,7 @@ const MobileNav = () => {
           <DrawerContent className="bg-blue-400 px-2 mt-12">
             <DrawerBody>
               <VStack className="text-xl text-white mt-5">
-                <Link to={"/login"} data-aos="fade-left" data-aos-delay="100" className="hover:text-red-300 w-full text-left" onClick={onClose}>Login</Link>
+                <a href='/' data-aos="fade-left" data-aos-delay="100" className="hover:text-red-300 w-full text-left" onClick={onClose}>Login</a>
                 <Link to={"/"} data-aos="fade-left" data-aos-delay="200" className="hover:text-red-300 w-full text-left" onClick={onClose}>Home</Link>
                 <Link to={"/about"} data-aos="fade-left" data-aos-delay="300" className="hover:text-red-300 w-full text-left" onClick={onClose}>About</Link>
                 <Link to={"/contact"} data-aos="fade-left" data-aos-delay="400" className="hover:text-red-300 w-full text-left" onClick={onClose}>Contact</Link>
